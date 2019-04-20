@@ -1,0 +1,31 @@
+version: '3'
+
+services:
+  db:
+    image: postgres
+    restart: always
+    environment:
+      POSTGRES_DB: "ninjadb"
+      POSTGRES_USER: "ninja"
+      POSTGRES_PASSWORD: "visibleNinja"
+      PGDATA: /data/postgres
+    volumes:
+       - postgres:/data/postgres
+       - ./init.sql:/docker-entrypoint-initdb.d/init.sql
+    ports:
+      - "5432:5432"
+      
+  dbadmin:
+    image: dpage/pgadmin4
+    environment:
+      PGADMIN_DEFAULT_EMAIL: "ninja@debt-ninja.io"
+      PGADMIN_DEFAULT_PASSWORD: "debt-ninja"
+    ports:
+      - "84:80"
+    volumes: 
+      - ./servers.json:/pgadmin4/servers.json
+    depends_on:
+      - db
+
+volumes: 
+  postgres:
