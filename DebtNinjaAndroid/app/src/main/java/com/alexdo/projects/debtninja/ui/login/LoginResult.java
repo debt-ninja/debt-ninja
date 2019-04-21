@@ -1,4 +1,4 @@
-package com.alexdo.projects.debtninja.ui.loginscreen;
+package com.alexdo.projects.debtninja.ui.login;
 
 import android.support.annotation.Nullable;
 

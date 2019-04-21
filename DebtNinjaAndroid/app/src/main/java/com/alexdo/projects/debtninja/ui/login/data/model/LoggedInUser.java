@@ -1,4 +1,4 @@
-package com.alexdo.projects.debtninja.ui.loginscreen.data.model;
+package com.alexdo.projects.debtninja.ui.login.data.model;
 
 /**
  * Data class that captures user information for logged in users retrieved from LoginRepository

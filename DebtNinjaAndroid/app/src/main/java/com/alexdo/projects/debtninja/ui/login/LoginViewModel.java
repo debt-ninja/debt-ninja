@@ -1,4 +1,4 @@
-package com.alexdo.projects.debtninja.ui.loginscreen;
+package com.alexdo.projects.debtninja.ui.login;
 
 import android.arch.lifecycle.LiveData;
 import android.arch.lifecycle.MutableLiveData;
@@ -6,9 +6,9 @@ import android.arch.lifecycle.ViewModel;
 import android.util.Patterns;
 
 import com.alexdo.projects.debtninja.R;
-import com.alexdo.projects.debtninja.ui.loginscreen.data.LoginRepository;
-import com.alexdo.projects.debtninja.ui.loginscreen.data.Result;
-import com.alexdo.projects.debtninja.ui.loginscreen.data.model.LoggedInUser;
+import com.alexdo.projects.debtninja.ui.login.data.LoginRepository;
+import com.alexdo.projects.debtninja.ui.login.data.Result;
+import com.alexdo.projects.debtninja.ui.login.data.model.LoggedInUser;
 
 public class LoginViewModel extends ViewModel {
 

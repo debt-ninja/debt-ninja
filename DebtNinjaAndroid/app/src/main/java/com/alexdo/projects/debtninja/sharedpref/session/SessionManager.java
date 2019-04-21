@@ -4,7 +4,7 @@ import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
 
-import com.alexdo.projects.debtninja.ui.loginscreen.LoginActivity;
+import com.alexdo.projects.debtninja.ui.login.LoginActivity;
 
 import java.util.HashMap;
 

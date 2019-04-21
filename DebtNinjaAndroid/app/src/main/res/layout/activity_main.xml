@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/main_background"
-    tools:context=".ui.mainscreen.MainActivity">
+    tools:context=".ui.home.MainActivity">
 
     <include layout="@layout/content_main" />
 

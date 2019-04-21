@@ -1,4 +1,4 @@
-package com.alexdo.projects.debtninja.ui.loginscreen;
+package com.alexdo.projects.debtninja.ui.login;
 
 /**
  * Class exposing authenticated user details to the UI.

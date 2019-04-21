@@ -1,6 +1,6 @@
-package com.alexdo.projects.debtninja.ui.loginscreen.data;
+package com.alexdo.projects.debtninja.ui.login.data;
 
-import com.alexdo.projects.debtninja.ui.loginscreen.data.model.LoggedInUser;
+import com.alexdo.projects.debtninja.ui.login.data.model.LoggedInUser;
 
 /**
  * Class that requests authentication and user information from the remote data source and

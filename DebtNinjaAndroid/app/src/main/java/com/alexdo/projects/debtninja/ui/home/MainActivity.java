@@ -1,17 +1,15 @@
-package com.alexdo.projects.debtninja.ui.mainscreen;
+package com.alexdo.projects.debtninja.ui.home;
 
+import android.content.Intent;
 import android.os.Bundle;
-import android.support.design.widget.FloatingActionButton;
-import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
-import android.support.v7.widget.Toolbar;
 import android.view.View;
-import android.widget.Button;
 import android.widget.ImageButton;
 import android.widget.TextView;
 
 import com.alexdo.projects.debtninja.R;
 import com.alexdo.projects.debtninja.sharedpref.session.SessionManager;
+import com.alexdo.projects.debtninja.ui.receipt.ReceiptActivity;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -24,10 +22,21 @@ public class MainActivity extends AppCompatActivity {
         final TextView actMonthTextView = findViewById(R.id.actMonthTextView);
         final TextView balanceTextView = findViewById(R.id.balanceTextView);
         final TextView debtTextView = findViewById(R.id.debtView);
-        final ImageButton addBillImageButton = findViewById(R.id.addBillImageButton);
+        final ImageButton addReceiptImageButton = findViewById(R.id.addBillImageButton);
         session = new SessionManager(getApplicationContext());
 
         session.checkLogin();
+
+
+        addReceiptImageButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent myIntent = new Intent(MainActivity.this, ReceiptActivity.class);
+                myIntent.putExtra("key", "value"); //Optional parameters
+                myIntent.addFlags(Intent.FLAG_ACTIVITY_NO_ANIMATION);
+                MainActivity.this.startActivity(myIntent);
+            }
+        });
 
     }
 

@@ -1,6 +1,6 @@
-package com.alexdo.projects.debtninja.ui.loginscreen.data;
+package com.alexdo.projects.debtninja.ui.login.data;
 
-import com.alexdo.projects.debtninja.ui.loginscreen.data.model.LoggedInUser;
+import com.alexdo.projects.debtninja.ui.login.data.model.LoggedInUser;
 
 import java.io.IOException;
 

@@ -1,4 +1,4 @@
-package com.alexdo.projects.debtninja.ui.loginscreen;
+package com.alexdo.projects.debtninja.ui.login;
 
 import android.app.Activity;
 import android.arch.lifecycle.Observer;
@@ -9,7 +9,6 @@ import android.support.annotation.StringRes;
 import android.support.v7.app.AppCompatActivity;
 import android.text.Editable;
 import android.text.TextWatcher;
-import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;

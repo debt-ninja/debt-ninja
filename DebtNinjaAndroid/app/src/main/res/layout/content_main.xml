@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:context=".ui.mainscreen.MainActivity"
+    tools:context=".ui.home.MainActivity"
     tools:showIn="@layout/activity_main">
 
     <ImageButton
@@ -26,8 +26,8 @@
 
     <ImageButton
         android:id="@+id/scanImageButton"
-        android:layout_width="80dp"
-        android:layout_height="80dp"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
         android:layout_marginStart="16dp"
         android:layout_marginBottom="16dp"
         android:adjustViewBounds="true"
@@ -39,8 +39,8 @@
 
     <ImageButton
         android:id="@+id/syncImageButton"
-        android:layout_width="80dp"
-        android:layout_height="80dp"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
         android:layout_marginTop="16dp"
         android:layout_marginBottom="16dp"
         android:adjustViewBounds="true"

@@ -1,11 +1,11 @@
-package com.alexdo.projects.debtninja.ui.loginscreen;
+package com.alexdo.projects.debtninja.ui.login;
 
 import android.arch.lifecycle.ViewModel;
 import android.arch.lifecycle.ViewModelProvider;
 import android.support.annotation.NonNull;
 
-import com.alexdo.projects.debtninja.ui.loginscreen.data.LoginDataSource;
-import com.alexdo.projects.debtninja.ui.loginscreen.data.LoginRepository;
+import com.alexdo.projects.debtninja.ui.login.data.LoginDataSource;
+import com.alexdo.projects.debtninja.ui.login.data.LoginRepository;
 
 /**
  * ViewModel provider factory to instantiate LoginViewModel.
