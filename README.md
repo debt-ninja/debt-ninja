@@ -3,6 +3,7 @@
 ## Split/share your receipts with your roommates
 ![Maintenance](https://img.shields.io/maintenance/yes/2019.svg?style=for-the-badge)
 ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/Kornek/debt-ninja.svg?style=for-the-badge)
+![PRS-welcome](https://img.shields.io/badge/PR's-WELCOME-brightgreen.svg?style=for-the-badge)
 
 ## Features
 ### Add your receipts
@@ -30,3 +31,11 @@
   - Image upload
 - **Version 0.3** ![STATUS](https://img.shields.io/badge/-Not_started_yet-black.svg)
   - Receipt import by QR Code on receipt
+
+
+## Setup Guide
+- Client
+  - Download the `.apk` from [Github Releases](https://github.com/Kornek/debt-ninja/releases) on your Android device
+  - Allow the installation from external resources
+  - Install the application
+- [Server](./server/README.md)
