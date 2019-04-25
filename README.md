@@ -5,5 +5,28 @@
 ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/Kornek/debt-ninja.svg?style=for-the-badge)
 
 ## Features
-- [ ] Add a receipt
-- [ ] Get a monthly result
+### Add your receipts
+ - Add receipt
+ - Upload image of receipt
+ - Receipt import by QR Code
+### Get your monthly result
+- Get total cost of all spendings
+- Get your difference
+### Supports
+  - 2+ persons in financial calculation
+  - No public server required
+
+# Roadmap
+- **Version 0.1** ![WIP](https://img.shields.io/badge/-WIP-orange.svg)
+  - Add receipt function ![TODO](https://img.shields.io/badge/-TODO-blue.svg)
+    1) Create receipt (no image)
+    2) Save local
+    3) Sync with server
+  - Financial Status Calculation ![TODO](https://img.shields.io/badge/-TODO-blue.svg)
+    1) Total spending for a month
+    2) Personal difference ("My current debt")
+- **Version 0.2** ![STATUS](https://img.shields.io/badge/-Not_started_yet-black.svg)
+  - App Updater (Get Releases directly from Github)
+  - Image upload
+- **Version 0.3** ![STATUS](https://img.shields.io/badge/-Not_started_yet-black.svg)
+  - Receipt import by QR Code on receipt
