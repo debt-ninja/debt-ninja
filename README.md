@@ -17,7 +17,7 @@
   - 2+ persons in financial calculation
   - No public server required
 
-# Roadmap
+## Roadmap
 - **Version 0.1** ![WIP](https://img.shields.io/badge/-WIP-orange.svg)
   - Add receipt function ![TODO](https://img.shields.io/badge/-TODO-blue.svg)
     1) Create receipt (no image)
@@ -39,3 +39,6 @@
   - Allow the installation from external resources
   - Install the application
 - [Server](./server/README.md)
+
+## System architecture
+![SYSARCH](./docs/images/sysarch.png)
