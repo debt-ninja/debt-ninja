@@ -1,5 +1,10 @@
 # Dept-Ninja Server
 
+### Used Ports:
+- 5432: PostgreSQL
+- 84: pgAdmin
+- 9000: MinIO
+
 # Initial Start
 1) Edit server.json 
     - Change __Host__ to server IP

@@ -26,6 +26,18 @@ services:
       - ./servers.json:/pgadmin4/servers.json
     depends_on:
       - db
+  
+  receiptstorage:
+    image: minio/minio
+    volumes:
+    - receiptstoragedata:/data
+    ports:
+    - "9000:9000"
+    environment:
+      MINIO_ACCESS_KEY: minininja
+      MINIO_SECRET_KEY: r3ce1ptN1nj4InM1n10
+    command: server /data
 
 volumes: 
   postgres:
+  receiptstoragedata:
