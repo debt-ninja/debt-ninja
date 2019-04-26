@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">DebtNinjaAndroid</string>
+    <string name="app_name">Debt Ninja</string>
     <string name="title_activity_main">Debt Ninja</string>
     <string name="title_activity_login">Sign in</string>
     <string name="prompt_email">Email</string>
