@@ -43,9 +43,12 @@
 ## System architecture
 ![SYSARCH](./docs/images/sysarch.png)
 
-## Copyright 2019 Alexander Minh Sang Do, Andreas Schlömicher
+## License
+
 
 ```
+Copyright 2019 Alexander Minh Sang Do, Andreas Schlömicher
+
 Licensed under the GNU GENERAL PUBLIC LICENSE, Version 3.0;
 you may not use this file except in compliance with the License.
 You may obtain a copy of the License at
