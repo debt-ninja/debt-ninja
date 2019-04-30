@@ -12,4 +12,5 @@
     <string name="invalid_password">Password must be >5 characters</string>
     <string name="login_failed">"Login failed"</string>
     <string name="add_receipt">Add receipt</string>
+    <string name="allowed_digit_char">1234567890.,</string>
 </resources>
