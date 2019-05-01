@@ -37,7 +37,17 @@ services:
       MINIO_ACCESS_KEY: minininja
       MINIO_SECRET_KEY: r3ce1ptN1nj4InM1n10
     command: server /data
-
+  
+  web:
+    build: ./flask-container
+    links:
+    - db
+    ports:
+    - "5000:5000"
+    volumes:
+    - ./flask-container:/flask_app
+    
 volumes: 
   postgres:
   receiptstoragedata:
+  flask_app:

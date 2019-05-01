@@ -4,6 +4,7 @@
 - 5432: PostgreSQL
 - 84: pgAdmin
 - 9000: MinIO
+- 5000: flask
 
 # Initial Start
 1) Edit server.json 
@@ -13,6 +14,10 @@
 # Stop & delete Data
 ```sh
 docker-compose down && docker-compose rm -f
+```
+# Build
+```sh
+docker-compose build
 ```
 
 # Start
