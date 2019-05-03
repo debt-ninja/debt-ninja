@@ -1,22 +1,37 @@
+DROP TABLE ReceiptDebt;
+DROP TABLE Receipt;
+DROP TABLE AppUser;
+
 SET timezone = 'Europe/Vienna';
 
 show timezone;
 
-create table Users
+CREATE TABLE AppUser
 (
-    UserId   int not null,
-    UserName varchar(255),
-    primary key (UserId)
+    UserId   SERIAL,
+    UserName VARCHAR(255),
+    PRIMARY KEY (UserId)
 );
 
-create table Receipts
+CREATE TABLE Receipt
+(
+    ReceiptId        SERIAL,
+    ReceiptLink      VARCHAR(255),
+    ReceiptTimestamp TIMESTAMP,
+    ReceiptTotal     NUMERIC(5, 2),
+    ReceiptDebt      NUMERIC(5, 2),
+    UserId           INT,
+    PRIMARY KEY (ReceiptId),
+    FOREIGN KEY (UserId) REFERENCES AppUser (UserId)
+);
+
+
+CREATE TABLE ReceiptDebt
 (
     ReceiptId        int not null,
-    ReceiptLink      varchar(255),
-    ReceiptTimestamp timestamp,
-    ReceiptTotal     numeric(5, 2),
-    ReceiptDebt      numeric(5, 2),
-    UserId           int,
-    primary key (ReceiptId),
-    foreign key (UserId) references Users (UserId)
+    Debt      NUMERIC(5, 2),
+    UserId           INT,
+    PRIMARY KEY (ReceiptId, UserId),
+    FOREIGN KEY (ReceiptId) REFERENCES Receipt (ReceiptId),
+    FOREIGN KEY (UserId) REFERENCES AppUser (UserId)
 );
