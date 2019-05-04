@@ -11,3 +11,15 @@
 /build
 /captures
 .externalNativeBuild
+
+local.properties
+.idea
+build/
+*.apk
+*.aar
+*.zip
+google-services.json
+
+.project
+.settings
+.classpath
