@@ -1,8 +1,8 @@
 ![debt-ninja logo](/logo.svg)
-# Debt Ninja [![GitHub stars](https://img.shields.io/github/stars/Kornek/debt-ninja.svg?style=social)](https://github.com/Kornek/debt-ninja)
+# Debt Ninja [![GitHub stars](https://img.shields.io/github/stars/debt-ninja/debt-ninja.svg?style=social)](https://github.com/debt-ninja/debt-ninja)
 ## Split/share your receipts with your roommates
 ![Maintenance](https://img.shields.io/maintenance/yes/2019.svg?style=for-the-badge)
-![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/Kornek/debt-ninja.svg?style=for-the-badge)
+![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/debt-ninja/debt-ninja.svg?style=for-the-badge)
 ![PRS-welcome](https://img.shields.io/badge/PR's-WELCOME-brightgreen.svg?style=for-the-badge)
 
 ## Features
@@ -35,7 +35,7 @@
 
 ## Setup Guide
 - Client
-  - Download the `.apk` from [Github Releases](https://github.com/Kornek/debt-ninja/releases) on your Android device
+  - Download the `.apk` from [Github Releases](https://github.com/debt-ninja/debt-ninja/releases) on your Android device
   - Allow the installation from external resources
   - Install the application
 - [Server](./server/README.md)
